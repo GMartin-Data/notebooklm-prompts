@@ -150,73 +150,29 @@ Browse prompts by category, copy the template from the code block, customize pla
 ## Structure
 
 ```
-prompts/
-├── learning/                              # 4 prompts
-│   ├── active-learning-session-planner.md
-│   ├── concept-connection-mapper.md
-│   ├── essential-questions-generator.md
-│   └── source-grounded-project-designer.md
-├── troubleshooting/                       # 3 prompts
-│   ├── pipeline-debugger.md
-│   ├── source-based-gap-analysis-engine.md
-│   └── source-comparison-implementation-guide.md
-├── productivity/                          # 3 prompts
-│   ├── complete-study-guide-generator.md
-│   ├── content-strategy-analyzer.md
-│   └── meeting-summary-generator.md
-├── advanced-techniques/                   # 5 prompts
-│   ├── custom-audio-overview-with-debate.md
-│   ├── interest-driven-summarization.md
-│   ├── multi-pass-structured-iteration.md
-│   ├── multi-source-comparison-table.md
-│   └── podcast-style-text-response.md
-├── data-engineering-specific/             # 5 prompts
-│   ├── architecture-decision-comparison.md
-│   ├── code-review-with-best-practices.md
-│   ├── learning-path-designer.md
-│   ├── tech-watch-synthesis.md
-│   └── technical-documentation-generator.md
-├── critical-analysis/                     # 4 prompts
-│   ├── the-anti-thesis.md
-│   ├── the-devils-advocate.md
-│   ├── the-dialectical-lens.md
-│   └── the-disillusionment-filter.md
-├── source-management/                     # 11 prompts
-│   ├── global-synthesis-compact.md
-│   ├── global-synthesis-data-engineering.md
-│   ├── global-synthesis-full.md
-│   ├── optimized-source-discovery.md
-│   ├── recurring-topics-domain-learning-variant.md
-│   ├── recurring-topics-extractor-v1-complete.md
-│   ├── recurring-topics-extractor-v2-compact.md
-│   ├── recurring-topics-solution-evaluation-variant.md
-│   ├── recurring-topics-tech-watch-variant.md
-│   ├── source-conflict-detector.md
-│   └── source-relevance-ranker.md
-├── studio/                                # 14 prompts
-│   ├── audio/
-│   │   ├── brief-executive-summary.md
-│   │   ├── critique-solution-evaluation.md
-│   │   ├── debate-opposing-views.md
-│   │   └── deep-dive-technical-focus.md
-│   ├── video/
-│   │   ├── brief-video-quick-explainer.md
-│   │   ├── explainer-video-comprehensive.md
-│   │   └── synthesis-to-video-overview.md
-│   ├── infographic/
-│   │   ├── architecture-overview.md
-│   │   ├── battle-card-comparison.md
-│   │   ├── data-storytelling.md
-│   │   └── process-flow.md
-│   └── slide-deck/
-│       ├── detailed-deck-standalone-document.md
-│       ├── presenter-slides-speaking-support.md
-│       └── technical-rfc-deck.md
-├── tracking.yaml                          # Usage metrics
-├── CHANGELOG.md
-├── .gitignore
-└── README.md
+├── learning/                 # 4 prompts — active learning, concept mapping
+├── troubleshooting/          # 3 prompts — debugging, gap analysis
+├── productivity/             # 3 prompts — study guides, meetings
+├── advanced-techniques/      # 5 prompts — multi-pass, comparisons
+├── data-engineering-specific/# 5 prompts — architecture, code review
+├── critical-analysis/        # 4 prompts — devil's advocate, dialectics
+├── source-management/        # 11 prompts — synthesis, topic extraction
+├── studio/                   # 14 prompts
+│   ├── audio/               # 4 — briefs, debates, deep dives
+│   ├── video/               # 3 — explainers, synthesis
+│   ├── infographic/         # 4 — architecture, battle cards
+│   └── slide-deck/          # 3 — presentations, RFCs
+├── docs/                     # Workflow documentation
+├── tracking.yaml             # Usage metrics
+└── CHANGELOG.md
 ```
+
+## Workflows
+
+Detailed processes for prompt development and multi-source synthesis:
+
+- **[Prompt Improvement Cycle](docs/workflow-prompt-improvement.md)** — Design → Validate → Archive workflow with tracking thresholds
+- **[Synthesis to Video](docs/workflow-synthesis-notebooklm.md)** — Multi-source synthesis → Video Overview pipeline
 
 ## File Format
 
