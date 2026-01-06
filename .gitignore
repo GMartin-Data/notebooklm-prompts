@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Archives (generated, not tracked)
+*.zip
+
+# Experiments (tracked separately or not at all)
+# experiments/

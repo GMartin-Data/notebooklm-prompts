@@ -1,0 +1,394 @@
+# NotebookLM Prompts Tracking
+# See workflow-prompt-improvement.md for usage guidelines
+#
+# Metrics:
+#   - uses_count: increment after each use
+#   - success_rate: successful uses / total uses (null if never used)
+#   - avg_quality: average quality score 1-5 (null if never used)
+#
+# Thresholds:
+#   - success_rate < 70% → analyze and iterate
+#   - avg_quality < 3.5 → revise prompt
+#   - uses_count = 0 after 3 months → archive or delete
+
+# === LEARNING ===
+
+active-learning-session-planner:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+concept-connection-mapper:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+essential-questions-generator:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+source-grounded-project-designer:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+# === TROUBLESHOOTING ===
+
+pipeline-debugger:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+source-based-gap-analysis-engine:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+source-comparison-implementation-guide:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+# === PRODUCTIVITY ===
+
+complete-study-guide-generator:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+content-strategy-analyzer:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+meeting-summary-generator:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+# === ADVANCED TECHNIQUES ===
+
+custom-audio-overview-with-debate:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+interest-driven-summarization:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+multi-pass-structured-iteration:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+multi-source-comparison-table:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+podcast-style-text-response:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+# === DATA ENGINEERING SPECIFIC ===
+
+architecture-decision-comparison:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+code-review-with-best-practices:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+learning-path-designer:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+tech-watch-synthesis:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+technical-documentation-generator:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+# === CRITICAL ANALYSIS ===
+
+the-anti-thesis:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+the-devils-advocate:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+the-dialectical-lens:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+the-disillusionment-filter:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+# === SOURCE MANAGEMENT ===
+
+optimized-source-discovery:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+recurring-topics-domain-learning-variant:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+recurring-topics-extractor-v1-complete:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+recurring-topics-extractor-v2-compact:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+recurring-topics-solution-evaluation-variant:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+recurring-topics-tech-watch-variant:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+source-conflict-detector:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+source-relevance-ranker:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+# === STUDIO / AUDIO ===
+
+brief-executive-summary:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+critique-solution-evaluation:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+debate-opposing-views:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+deep-dive-technical-focus:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+# === STUDIO / VIDEO ===
+
+brief-video-quick-explainer:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+explainer-video-comprehensive:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+# === STUDIO / INFOGRAPHIC ===
+
+architecture-overview:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+battle-card-comparison:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+data-storytelling:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+process-flow:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+# === STUDIO / SLIDE DECK ===
+
+detailed-deck-standalone-document:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+presenter-slides-speaking-support:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
+
+technical-rfc-deck:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: ""
