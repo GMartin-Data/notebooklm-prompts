@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.2.0] - 2026-01-06
+
+### Added
+- `source-management/global-synthesis-full.md` — Comprehensive multi-source synthesis
+- `source-management/global-synthesis-compact.md` — Quick synthesis variant
+- `source-management/global-synthesis-data-engineering.md` — Tech watch synthesis
+- `studio/video/synthesis-to-video-overview.md` — Video generation from synthesis note
+
+### Note
+- All 4 prompts are untested (v0.1) — marked with `tested: false` in frontmatter
+
 ## [2.1.0] - 2026-01-06
 
 ### Changed

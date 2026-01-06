@@ -281,6 +281,30 @@ source-relevance-ranker:
   avg_quality: null
   notes: ""
 
+global-synthesis-full:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: "Untested v0.1"
+
+global-synthesis-compact:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: "Untested v0.1"
+
+global-synthesis-data-engineering:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: "Untested v0.1"
+
 # === STUDIO / AUDIO ===
 
 brief-executive-summary:
@@ -332,6 +356,14 @@ explainer-video-comprehensive:
   success_rate: null
   avg_quality: null
   notes: ""
+
+synthesis-to-video-overview:
+  created: 2026-01-06
+  last_used: null
+  uses_count: 0
+  success_rate: null
+  avg_quality: null
+  notes: "Untested v0.1"
 
 # === STUDIO / INFOGRAPHIC ===
 

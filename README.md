@@ -1,6 +1,6 @@
 # NotebookLM Prompts Library
 
-**Version 2.1.0** | 45 prompts | 8 categories | Focus: Data Engineering
+**Version 2.2.0** | 49 prompts | 8 categories | Focus: Data Engineering
 
 ## Quick Start
 
@@ -45,7 +45,10 @@ prompts/
 │   ├── the-devils-advocate.md
 │   ├── the-dialectical-lens.md
 │   └── the-disillusionment-filter.md
-├── source-management/                     # 8 prompts
+├── source-management/                     # 11 prompts
+│   ├── global-synthesis-compact.md
+│   ├── global-synthesis-data-engineering.md
+│   ├── global-synthesis-full.md
 │   ├── optimized-source-discovery.md
 │   ├── recurring-topics-domain-learning-variant.md
 │   ├── recurring-topics-extractor-v1-complete.md
@@ -54,7 +57,7 @@ prompts/
 │   ├── recurring-topics-tech-watch-variant.md
 │   ├── source-conflict-detector.md
 │   └── source-relevance-ranker.md
-├── studio/                                # 13 prompts
+├── studio/                                # 14 prompts
 │   ├── audio/
 │   │   ├── brief-executive-summary.md
 │   │   ├── critique-solution-evaluation.md
@@ -62,7 +65,8 @@ prompts/
 │   │   └── deep-dive-technical-focus.md
 │   ├── video/
 │   │   ├── brief-video-quick-explainer.md
-│   │   └── explainer-video-comprehensive.md
+│   │   ├── explainer-video-comprehensive.md
+│   │   └── synthesis-to-video-overview.md
 │   ├── infographic/
 │   │   ├── architecture-overview.md
 │   │   ├── battle-card-comparison.md
