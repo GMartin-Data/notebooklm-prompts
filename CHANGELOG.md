@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.3.0] - 2026-01-08
+
+### Added
+- 6 Video Overview templates in `studio/video/`:
+  - `video-architecture-pipeline.md` — Visualize data architectures and pipelines
+  - `video-vulgarisation-concepts.md` — Explain complex concepts simply
+  - `video-stakeholders-executive.md` — Executive summaries and reporting
+  - `video-onboarding-technique.md` — Training and tutorials
+  - `video-documentation-technique.md` — API docs and technical specs
+  - `video-innovation-produit.md` — Product pitches and demos
+- Reference guide `docs/notebooklm-video-templates-guide.md`
+
+### Note
+- All 6 templates are tested and validated
+
 ## [2.2.0] - 2026-01-06
 
 ### Added

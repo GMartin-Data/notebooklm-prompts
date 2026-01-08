@@ -365,6 +365,54 @@ synthesis-to-video-overview:
   avg_quality: null
   notes: "Untested v0.1"
 
+video-architecture-pipeline:
+  created: 2026-01-08
+  last_used: 2026-01-08
+  uses_count: 1
+  success_rate: 1.0
+  avg_quality: null
+  notes: "Tested and validated"
+
+video-vulgarisation-concepts:
+  created: 2026-01-08
+  last_used: 2026-01-08
+  uses_count: 1
+  success_rate: 1.0
+  avg_quality: null
+  notes: "Tested and validated"
+
+video-stakeholders-executive:
+  created: 2026-01-08
+  last_used: 2026-01-08
+  uses_count: 1
+  success_rate: 1.0
+  avg_quality: null
+  notes: "Tested and validated"
+
+video-onboarding-technique:
+  created: 2026-01-08
+  last_used: 2026-01-08
+  uses_count: 1
+  success_rate: 1.0
+  avg_quality: null
+  notes: "Tested and validated"
+
+video-documentation-technique:
+  created: 2026-01-08
+  last_used: 2026-01-08
+  uses_count: 1
+  success_rate: 1.0
+  avg_quality: null
+  notes: "Tested and validated"
+
+video-innovation-produit:
+  created: 2026-01-08
+  last_used: 2026-01-08
+  uses_count: 1
+  success_rate: 1.0
+  avg_quality: null
+  notes: "Tested and validated"
+
 # === STUDIO / INFOGRAPHIC ===
 
 architecture-overview:
