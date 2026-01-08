@@ -1,6 +1,6 @@
 # NotebookLM Prompts Library
 
-**Version 2.2.0** | 49 prompts | 8 categories | Focus: Data Engineering
+**Version 2.3.0** | 55 prompts | 8 categories | Focus: Data Engineering
 
 ## Quick Start
 
@@ -57,6 +57,12 @@ Browse prompts by category, copy the template from the code block, customize pla
 | [Brief Video - Quick Explainer](studio/video/brief-video-quick-explainer.md) | studio/video | — | 1-2 minute video intro for onboarding |
 | [Explainer Video - Comprehensive](studio/video/explainer-video-comprehensive.md) | studio/video | — | 6-10 minute technical explainer video |
 | [Synthesis to Video Overview](studio/video/synthesis-to-video-overview.md) | studio/video | beginner | Generate video from synthesis note |
+| [Video — Architecture/Pipelines](studio/video/video-architecture-pipeline.md) | studio/video | intermediate | Visualize data architectures and pipelines |
+| [Video — Vulgarisation/Concepts](studio/video/video-vulgarisation-concepts.md) | studio/video | beginner | Explain complex concepts simply |
+| [Video — Stakeholders/Executive](studio/video/video-stakeholders-executive.md) | studio/video | intermediate | Executive summaries and reporting |
+| [Video — Onboarding technique](studio/video/video-onboarding-technique.md) | studio/video | beginner | Training and tutorials |
+| [Video — Documentation technique](studio/video/video-documentation-technique.md) | studio/video | intermediate | API docs and technical specs |
+| [Video — Innovation/Produit](studio/video/video-innovation-produit.md) | studio/video | intermediate | Product pitches and demos |
 | [Architecture Overview](studio/infographic/architecture-overview.md) | studio/infographic | — | Technical architecture diagram |
 | [Battle Card Comparison](studio/infographic/battle-card-comparison.md) | studio/infographic | — | Competitive comparison infographic |
 | [Data Storytelling](studio/infographic/data-storytelling.md) | studio/infographic | — | Data-driven insight visualization |
@@ -121,6 +127,12 @@ Browse prompts by category, copy the template from the code block, customize pla
 | Short explainer video | [Brief Video - Quick Explainer](studio/video/brief-video-quick-explainer.md) |
 | Full explainer video | [Explainer Video - Comprehensive](studio/video/explainer-video-comprehensive.md) |
 | Video from synthesis | [Synthesis to Video Overview](studio/video/synthesis-to-video-overview.md) |
+| Video: architecture/pipelines | [Video — Architecture/Pipelines](studio/video/video-architecture-pipeline.md) |
+| Video: explain concepts simply | [Video — Vulgarisation/Concepts](studio/video/video-vulgarisation-concepts.md) |
+| Video: executive summary | [Video — Stakeholders/Executive](studio/video/video-stakeholders-executive.md) |
+| Video: training/tutorials | [Video — Onboarding technique](studio/video/video-onboarding-technique.md) |
+| Video: API/technical docs | [Video — Documentation technique](studio/video/video-documentation-technique.md) |
+| Video: product pitch/demo | [Video — Innovation/Produit](studio/video/video-innovation-produit.md) |
 | Architecture diagram | [Architecture Overview](studio/infographic/architecture-overview.md) |
 | Tool comparison card | [Battle Card Comparison](studio/infographic/battle-card-comparison.md) |
 | Data insight visual | [Data Storytelling](studio/infographic/data-storytelling.md) |
@@ -157,9 +169,9 @@ Browse prompts by category, copy the template from the code block, customize pla
 ├── data-engineering-specific/# 5 prompts — architecture, code review
 ├── critical-analysis/        # 4 prompts — devil's advocate, dialectics
 ├── source-management/        # 11 prompts — synthesis, topic extraction
-├── studio/                   # 14 prompts
+├── studio/                   # 20 prompts
 │   ├── audio/               # 4 — briefs, debates, deep dives
-│   ├── video/               # 3 — explainers, synthesis
+│   ├── video/               # 9 — explainers, templates
 │   ├── infographic/         # 4 — architecture, battle cards
 │   └── slide-deck/          # 3 — presentations, RFCs
 ├── docs/                     # Workflow documentation
@@ -173,6 +185,7 @@ Detailed processes for prompt development and multi-source synthesis:
 
 - **[Prompt Improvement Cycle](docs/workflow-prompt-improvement.md)** — Design → Validate → Archive workflow with tracking thresholds
 - **[Synthesis to Video](docs/workflow-synthesis-notebooklm.md)** — Multi-source synthesis → Video Overview pipeline
+- **[Video Templates Guide](docs/notebooklm-video-templates-guide.md)** — 6 ready-to-use Style + Focus templates for Video Overview
 
 ## File Format
 
