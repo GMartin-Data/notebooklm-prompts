@@ -415,37 +415,53 @@ video-innovation-produit:
 
 # === STUDIO / INFOGRAPHIC ===
 
-architecture-overview:
-  created: 2026-01-06
-  last_used: null
-  uses_count: 0
-  success_rate: null
+infographic-architecture-data:
+  created: 2026-01-09
+  last_used: 2026-01-09
+  uses_count: 1
+  success_rate: 1.0
   avg_quality: null
-  notes: ""
+  notes: "Tested and validated"
 
-battle-card-comparison:
-  created: 2026-01-06
-  last_used: null
-  uses_count: 0
-  success_rate: null
+infographic-vulgarisation:
+  created: 2026-01-09
+  last_used: 2026-01-09
+  uses_count: 1
+  success_rate: 1.0
   avg_quality: null
-  notes: ""
+  notes: "Tested and validated"
 
-data-storytelling:
-  created: 2026-01-06
-  last_used: null
-  uses_count: 0
-  success_rate: null
+infographic-executive-kpis:
+  created: 2026-01-09
+  last_used: 2026-01-09
+  uses_count: 1
+  success_rate: 1.0
   avg_quality: null
-  notes: ""
+  notes: "Tested and validated — Top performer"
 
-process-flow:
-  created: 2026-01-06
-  last_used: null
-  uses_count: 0
-  success_rate: null
+infographic-comparison:
+  created: 2026-01-09
+  last_used: 2026-01-09
+  uses_count: 1
+  success_rate: 1.0
   avg_quality: null
-  notes: ""
+  notes: "Tested and validated — Top performer"
+
+infographic-process-timeline:
+  created: 2026-01-09
+  last_used: 2026-01-09
+  uses_count: 1
+  success_rate: 1.0
+  avg_quality: null
+  notes: "Tested and validated — Top performer"
+
+infographic-social-media:
+  created: 2026-01-09
+  last_used: 2026-01-09
+  uses_count: 1
+  success_rate: 1.0
+  avg_quality: null
+  notes: "Tested and validated"
 
 # === STUDIO / SLIDE DECK ===
 

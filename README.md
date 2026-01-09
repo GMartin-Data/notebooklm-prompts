@@ -1,6 +1,6 @@
 # NotebookLM Prompts Library
 
-**Version 2.4.0** | 55 prompts | 8 categories | Focus: Data Engineering
+**Version 2.5.0** | 57 prompts | 8 categories | Focus: Data Engineering
 
 ## Quick Start
 
@@ -63,10 +63,12 @@ Browse prompts by category, copy the template from the code block, customize pla
 | [Video — Onboarding technique](templates/studio/video/video-onboarding-technique.md) | studio/video | beginner | Training and tutorials |
 | [Video — Documentation technique](templates/studio/video/video-documentation-technique.md) | studio/video | intermediate | API docs and technical specs |
 | [Video — Innovation/Produit](templates/studio/video/video-innovation-produit.md) | studio/video | intermediate | Product pitches and demos |
-| [Architecture Overview](templates/studio/infographic/architecture-overview.md) | studio/infographic | — | Technical architecture diagram |
-| [Battle Card Comparison](templates/studio/infographic/battle-card-comparison.md) | studio/infographic | — | Competitive comparison infographic |
-| [Data Storytelling](templates/studio/infographic/data-storytelling.md) | studio/infographic | — | Data-driven insight visualization |
-| [Process Flow](templates/studio/infographic/process-flow.md) | studio/infographic | — | Step-by-step workflow diagram |
+| [Infographic — Architecture/Data](templates/studio/infographic/infographic-architecture-data.md) | studio/infographic | — | Isometric data platform diagrams |
+| [Infographic — Vulgarisation](templates/studio/infographic/infographic-vulgarisation.md) | studio/infographic | — | Complex concepts for non-experts |
+| [Infographic — Executive/KPIs](templates/studio/infographic/infographic-executive-kpis.md) | studio/infographic | — | KPIs and metrics, Swiss Minimalist |
+| [Infographic — Comparaison](templates/studio/infographic/infographic-comparison.md) | studio/infographic | — | Split-screen duotone comparison |
+| [Infographic — Process/Timeline](templates/studio/infographic/infographic-process-timeline.md) | studio/infographic | — | Journey metaphor workflow |
+| [Infographic — Social Media](templates/studio/infographic/infographic-social-media.md) | studio/infographic | — | Viral content, Cyberpunk style |
 | [Detailed Deck - Standalone](templates/studio/slide-deck/detailed-deck-standalone-document.md) | studio/slide-deck | — | Full presentation for technical review |
 | [Presenter Slides - Speaking Support](templates/studio/slide-deck/presenter-slides-speaking-support.md) | studio/slide-deck | — | Minimal slides with speaker notes |
 | [Technical RFC Deck](templates/studio/slide-deck/technical-rfc-deck.md) | studio/slide-deck | — | RFC presentation for architecture proposals |
@@ -133,10 +135,12 @@ Browse prompts by category, copy the template from the code block, customize pla
 | Video: training/tutorials | [Video — Onboarding technique](templates/studio/video/video-onboarding-technique.md) |
 | Video: API/technical docs | [Video — Documentation technique](templates/studio/video/video-documentation-technique.md) |
 | Video: product pitch/demo | [Video — Innovation/Produit](templates/studio/video/video-innovation-produit.md) |
-| Architecture diagram | [Architecture Overview](templates/studio/infographic/architecture-overview.md) |
-| Tool comparison card | [Battle Card Comparison](templates/studio/infographic/battle-card-comparison.md) |
-| Data insight visual | [Data Storytelling](templates/studio/infographic/data-storytelling.md) |
-| Process documentation | [Process Flow](templates/studio/infographic/process-flow.md) |
+| Architecture diagram | [Infographic — Architecture/Data](templates/studio/infographic/infographic-architecture-data.md) |
+| Explain concepts simply | [Infographic — Vulgarisation](templates/studio/infographic/infographic-vulgarisation.md) |
+| KPIs and metrics | [Infographic — Executive/KPIs](templates/studio/infographic/infographic-executive-kpis.md) |
+| Tool comparison | [Infographic — Comparaison](templates/studio/infographic/infographic-comparison.md) |
+| Process documentation | [Infographic — Process/Timeline](templates/studio/infographic/infographic-process-timeline.md) |
+| Social media content | [Infographic — Social Media](templates/studio/infographic/infographic-social-media.md) |
 | Technical presentation | [Detailed Deck - Standalone](templates/studio/slide-deck/detailed-deck-standalone-document.md) |
 | Speaking support slides | [Presenter Slides - Speaking Support](templates/studio/slide-deck/presenter-slides-speaking-support.md) |
 | RFC presentation | [Technical RFC Deck](templates/studio/slide-deck/technical-rfc-deck.md) |
@@ -162,7 +166,7 @@ Browse prompts by category, copy the template from the code block, customize pla
 ## Structure
 
 ```
-├── templates/                    # 55 prompts
+├── templates/                    # 57 prompts
 │   ├── learning/                 # 4 — active learning, concept mapping
 │   ├── troubleshooting/          # 3 — debugging, gap analysis
 │   ├── productivity/             # 3 — study guides, meetings
@@ -170,10 +174,10 @@ Browse prompts by category, copy the template from the code block, customize pla
 │   ├── data-engineering-specific/# 5 — architecture, code review
 │   ├── critical-analysis/        # 4 — devil's advocate, dialectics
 │   ├── source-management/        # 11 — synthesis, topic extraction
-│   └── studio/                   # 20 prompts
+│   └── studio/                   # 22 prompts
 │       ├── audio/                # 4 — briefs, debates, deep dives
 │       ├── video/                # 9 — explainers, templates
-│       ├── infographic/          # 4 — architecture, battle cards
+│       ├── infographic/          # 6 — architecture, KPIs, comparison
 │       └── slide-deck/           # 3 — presentations, RFCs
 ├── docs/                         # Workflow documentation
 ├── tracking.yaml                 # Usage metrics
@@ -187,6 +191,7 @@ Detailed processes for prompt development and multi-source synthesis:
 - **[Prompt Improvement Cycle](docs/workflow-prompt-improvement.md)** — Design → Validate → Archive workflow with tracking thresholds
 - **[Synthesis to Video](docs/workflow-synthesis-notebooklm.md)** — Multi-source synthesis → Video Overview pipeline
 - **[Video Templates Guide](docs/notebooklm-video-templates-guide.md)** — 6 ready-to-use Style + Focus templates for Video Overview
+- **[Infographic Guide](docs/notebooklm-infographic-guide.md)** — 6 tested templates with styling techniques and limitations
 
 ## File Format
 

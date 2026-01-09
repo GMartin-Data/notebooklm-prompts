@@ -4,6 +4,33 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.5.0] - 2026-01-09
+
+### Added
+- 6 Infographic templates in `templates/studio/infographic/`:
+  - `infographic-architecture-data.md` — Isometric data platform diagrams
+  - `infographic-vulgarisation.md` — Complex concepts for non-experts (Kurzgesagt-style)
+  - `infographic-executive-kpis.md` — KPIs and metrics (Swiss Minimalist)
+  - `infographic-comparison.md` — Split-screen duotone comparison
+  - `infographic-process-timeline.md` — Journey metaphor workflow
+  - `infographic-social-media.md` — Viral content (Cyberpunk/Gradient)
+- Reference guide `docs/notebooklm-infographic-guide.md` with:
+  - Nano Banana Pro architecture documentation
+  - Styling techniques and color management
+  - Limitations and workarounds
+  - Test sources per category
+
+### Removed
+- 4 untested infographic templates replaced by validated versions:
+  - `architecture-overview.md`
+  - `battle-card-comparison.md`
+  - `data-storytelling.md`
+  - `process-flow.md`
+
+### Note
+- All 6 new templates are tested and validated
+- Top performers: Executive/KPIs, Comparaison, Process/Timeline
+
 ## [2.4.0] - 2026-01-09
 
 ### Changed
