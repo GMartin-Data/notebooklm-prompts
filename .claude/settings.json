@@ -1,0 +1,30 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/scripts/block-force-push.sh"
+          },
+          {
+            "type": "command",
+            "command": ".claude/scripts/block-rm-rf.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/scripts/ruff-hook.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

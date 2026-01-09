@@ -82,19 +82,20 @@
 
 ```
 notebooklm-prompts/
-├── prompts/
+├── templates/
 │   ├── learning/
 │   │   └── [prompt-name].md
 │   ├── troubleshooting/
 │   ├── productivity/
-│   ├── critical_analysis/
+│   ├── critical-analysis/
+│   ├── source-management/
 │   └── studio/
 │       ├── audio/
 │       ├── video/
 │       ├── infographic/
-│       └── slide_deck/
+│       └── slide-deck/
+├── docs/                  # Workflow documentation
 ├── experiments/           # Variantes en test
-├── library.json           # Export complet
 ├── tracking.yaml          # Métriques usage
 └── CHANGELOG.md
 ```

@@ -86,12 +86,12 @@ Les guardrails de Nano Banana peuvent bloquer silencieusement certains termes. U
 
 | Template | Fichier |
 |----------|---------|
-| Architecture/Pipelines | `studio/video/video-architecture-pipeline.md` |
-| Vulgarisation/Concepts | `studio/video/video-vulgarisation-concepts.md` |
-| Stakeholders/Executive | `studio/video/video-stakeholders-executive.md` |
-| Onboarding technique | `studio/video/video-onboarding-technique.md` |
-| Documentation technique | `studio/video/video-documentation-technique.md` |
-| Innovation/Produit | `studio/video/video-innovation-produit.md` |
+| Architecture/Pipelines | `templates/studio/video/video-architecture-pipeline.md` |
+| Vulgarisation/Concepts | `templates/studio/video/video-vulgarisation-concepts.md` |
+| Stakeholders/Executive | `templates/studio/video/video-stakeholders-executive.md` |
+| Onboarding technique | `templates/studio/video/video-onboarding-technique.md` |
+| Documentation technique | `templates/studio/video/video-documentation-technique.md` |
+| Innovation/Produit | `templates/studio/video/video-innovation-produit.md` |
 
 ---
 

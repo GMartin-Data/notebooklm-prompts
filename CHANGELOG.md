@@ -4,10 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.4.0] - 2026-01-09
+
+### Changed
+- Reorganized repository structure: all prompt templates now live under `templates/`
+  - Moved 8 category folders: `learning/`, `troubleshooting/`, `productivity/`, `advanced-techniques/`, `data-engineering-specific/`, `critical-analysis/`, `source-management/`, `studio/`
+  - `docs/` remains at root level for workflow documentation
+- Updated all internal links in README.md and documentation files
+
+### Note
+- This is a structural change only; no prompts were added, removed, or modified
+
 ## [2.3.0] - 2026-01-08
 
 ### Added
-- 6 Video Overview templates in `studio/video/`:
+- 6 Video Overview templates in `templates/studio/video/`:
   - `video-architecture-pipeline.md` — Visualize data architectures and pipelines
   - `video-vulgarisation-concepts.md` — Explain complex concepts simply
   - `video-stakeholders-executive.md` — Executive summaries and reporting

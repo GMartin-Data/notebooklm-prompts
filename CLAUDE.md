@@ -1,22 +1,23 @@
 # CLAUDE.md — NotebookLM Prompts Library
 
-This repository contains 49 prompts for NotebookLM, focused on Data Engineering workflows.
+This repository contains 55 prompts for NotebookLM, focused on Data Engineering workflows.
 
 ## Repository Structure
 
 ```
-├── learning/                    # 4 prompts — active learning, concept mapping
-├── troubleshooting/             # 3 prompts — debugging, gap analysis
-├── productivity/                # 3 prompts — study guides, meeting summaries
-├── advanced-techniques/         # 5 prompts — multi-pass, comparison tables
-├── data-engineering-specific/   # 5 prompts — architecture decisions, code review
-├── critical-analysis/           # 4 prompts — devil's advocate, dialectical lens
-├── source-management/           # 11 prompts — synthesis, topic extraction, ranking
-├── studio/                      # 14 prompts — audio, video, infographic, slide-deck
-│   ├── audio/
-│   ├── video/
-│   ├── infographic/
-│   └── slide-deck/
+├── templates/                   # 55 prompts
+│   ├── learning/                # 4 — active learning, concept mapping
+│   ├── troubleshooting/         # 3 — debugging, gap analysis
+│   ├── productivity/            # 3 — study guides, meeting summaries
+│   ├── advanced-techniques/     # 5 — multi-pass, comparison tables
+│   ├── data-engineering-specific/ # 5 — architecture decisions, code review
+│   ├── critical-analysis/       # 4 — devil's advocate, dialectical lens
+│   ├── source-management/       # 11 — synthesis, topic extraction, ranking
+│   └── studio/                  # 20 — audio, video, infographic, slide-deck
+│       ├── audio/
+│       ├── video/
+│       ├── infographic/
+│       └── slide-deck/
 ├── docs/                        # Workflow documentation
 ├── tracking.yaml                # Usage metrics
 └── CHANGELOG.md
