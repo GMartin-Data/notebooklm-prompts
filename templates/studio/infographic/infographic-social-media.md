@@ -2,12 +2,12 @@
 name: "Infographic — Social Media"
 category: studio
 subcategory: infographic
+difficulty: intermediate
 orientation: "Square"
 detail_level: "Concise"
 source: "Custom - Validated"
 use_case: "Contenu condensé pour réseaux sociaux avec stat marquante"
 ---
-
 # Infographic — Social Media
 
 **Source:** Custom - Validated

@@ -2,6 +2,7 @@
 name: "Brief - Executive Summary"
 category: studio
 subcategory: audio
+difficulty: intermediate
 format: "Brief"
 length: "Shorter"
 source: "Wonder Tools"

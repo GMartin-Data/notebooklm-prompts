@@ -2,11 +2,11 @@
 name: "Technical RFC Deck"
 category: studio
 subcategory: slide-deck
+difficulty: intermediate
 type: "Detailed Deck"
 source: "Custom"
 use_case: "Préparer RFC pour nouvelle architecture de pipeline data"
 ---
-
 # Technical RFC Deck
 
 **Source:** Custom  

@@ -2,12 +2,12 @@
 name: "Infographic — Executive/KPIs"
 category: studio
 subcategory: infographic
+difficulty: intermediate
 orientation: "Square"
 detail_level: "Concise"
 source: "Custom - Validated"
 use_case: "Rapports avec métriques et KPIs pour décisions business"
 ---
-
 # Infographic — Executive/KPIs
 
 **Source:** Custom - Validated

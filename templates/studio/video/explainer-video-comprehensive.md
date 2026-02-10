@@ -2,6 +2,7 @@
 name: "Explainer Video - Comprehensive"
 category: studio
 subcategory: video
+difficulty: intermediate
 length: "6-10 minutes"
 source: "Wonder Tools"
 use_case: "Vidéo explicative complète pour évaluation d'un outil avant POC"
