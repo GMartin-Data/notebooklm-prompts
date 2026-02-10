@@ -2,6 +2,7 @@
 name: "Deep Dive - Technical Focus"
 category: studio
 subcategory: audio
+difficulty: intermediate
 format: "Deep Dive"
 length: "Longer"
 source: "greeden.me"

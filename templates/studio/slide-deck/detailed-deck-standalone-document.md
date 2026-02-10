@@ -2,11 +2,11 @@
 name: "Detailed Deck - Standalone Document"
 category: studio
 subcategory: slide-deck
+difficulty: intermediate
 type: "Detailed Deck"
 source: "vibeproductmarketing"
 use_case: "Présentation technique pour architecture review ou RFC"
 ---
-
 # Detailed Deck - Standalone Document
 
 **Source:** vibeproductmarketing  

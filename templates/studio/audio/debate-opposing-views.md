@@ -2,6 +2,7 @@
 name: "Debate - Opposing Views"
 category: studio
 subcategory: audio
+difficulty: intermediate
 format: "Debate"
 length: "Default"
 source: "Custom"

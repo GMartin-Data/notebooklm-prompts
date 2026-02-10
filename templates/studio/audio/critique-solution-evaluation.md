@@ -2,6 +2,7 @@
 name: "Critique - Solution Evaluation"
 category: studio
 subcategory: audio
+difficulty: intermediate
 format: "Critique"
 length: "Default"
 source: "Custom"

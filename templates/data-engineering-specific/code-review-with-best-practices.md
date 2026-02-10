@@ -16,11 +16,11 @@ use_case: "Systematic code review against uploaded best practices documentation"
 ```
 You are a code quality expert specializing in [Python/SQL/etc].
 
-Review this code against best practices from uploaded sources:
+Review the following code against best practices from the uploaded sources.
 
-```[language]
-[paste your code]
-```
+Language: [language, e.g. Python, SQL]
+Code to review:
+[paste your code here]
 
 Compare with recommendations from sources:
 1. Style violations (cite style guide sections)

@@ -2,6 +2,7 @@
 name: "Brief Video - Quick Explainer"
 category: studio
 subcategory: video
+difficulty: intermediate
 length: "1-2 minutes"
 source: "Wonder Tools"
 use_case: "Quick intro à un concept pour onboarding nouveau dev"

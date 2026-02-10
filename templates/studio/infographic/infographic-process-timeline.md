@@ -2,12 +2,12 @@
 name: "Infographic — Process/Timeline"
 category: studio
 subcategory: infographic
+difficulty: intermediate
 orientation: "Portrait"
 detail_level: "Standard"
 source: "Custom - Validated"
 use_case: "Processus étape par étape et workflows séquentiels"
 ---
-
 # Infographic — Process/Timeline
 
 **Source:** Custom - Validated

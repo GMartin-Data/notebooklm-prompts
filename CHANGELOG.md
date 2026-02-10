@@ -4,6 +4,27 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.5.2] - 2026-02-10
+
+### Added
+- `scripts/validate_prompts.py` validation tool:
+  - Checks YAML frontmatter (required fields, difficulty values)
+  - Verifies alignment between `templates/` prompt files and `tracking.yaml` entries
+
+### Changed
+- Completed frontmatter for Studio prompts by adding `difficulty: intermediate`:
+  - `templates/studio/audio/*.md`
+  - `templates/studio/video/*.md`
+  - `templates/studio/infographic/*.md`
+  - `templates/studio/slide-deck/*.md`
+
+## [2.5.1] - 2026-02-10
+
+### Changed
+- Improved robustness of `templates/data-engineering-specific/code-review-with-best-practices.md`:
+  - Removed nested code fences inside the prompt body
+  - Clarified language and code placeholders for NotebookLM usage
+
 ## [2.5.0] - 2026-01-09
 
 ### Added

@@ -2,11 +2,11 @@
 name: "Presenter Slides - Speaking Support"
 category: studio
 subcategory: slide-deck
+difficulty: intermediate
 type: "Presenter Slides"
 source: "vibeproductmarketing"
 use_case: "Présentation rapide pour partage de connaissances en équipe"
 ---
-
 # Presenter Slides - Speaking Support
 
 **Source:** vibeproductmarketing  

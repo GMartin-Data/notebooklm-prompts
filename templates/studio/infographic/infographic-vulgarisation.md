@@ -2,12 +2,12 @@
 name: "Infographic — Vulgarisation/Concepts"
 category: studio
 subcategory: infographic
+difficulty: intermediate
 orientation: "Portrait"
 detail_level: "Concise"
 source: "Custom - Validated"
 use_case: "Expliquer simplement un concept complexe à des non-experts"
 ---
-
 # Infographic — Vulgarisation/Concepts
 
 **Source:** Custom - Validated

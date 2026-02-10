@@ -2,12 +2,12 @@
 name: "Infographic — Architecture/Data"
 category: studio
 subcategory: infographic
+difficulty: intermediate
 orientation: "Landscape"
 detail_level: "Standard"
 source: "Custom - Validated"
 use_case: "Visualiser architecture data platform avec composants et flux"
 ---
-
 # Infographic — Architecture/Data
 
 **Source:** Custom - Validated

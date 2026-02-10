@@ -2,12 +2,12 @@
 name: "Infographic — Comparaison"
 category: studio
 subcategory: infographic
+difficulty: intermediate
 orientation: "Landscape"
 detail_level: "Standard"
 source: "Custom - Validated"
 use_case: "Comparaison visuelle de deux approches ou solutions"
 ---
-
 # Infographic — Comparaison
 
 **Source:** Custom - Validated
