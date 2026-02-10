@@ -235,6 +235,28 @@ prompt-name:
 4. Add entry to `tracking.yaml`
 5. Update `CHANGELOG.md`
 
+## Optional: NotebookLM Prompts Userscript
+
+You can use this repository as an interactive prompt picker *inside* NotebookLM via a Tampermonkey userscript.
+
+### Installation
+
+1. Install the **Tampermonkey** extension in your browser (Chrome/Edge/Brave, etc.).
+2. Open the raw version of the userscript:
+   - `https://raw.githubusercontent.com/GMartin-Data/notebooklm-prompts/main/tools/notebooklm-prompts-userscript.user.js`
+3. Tampermonkey should offer to create a new script → click **Install**.
+
+### Usage
+
+- Open `https://notebooklm.google.com/` and any Notebook.
+- A floating button **“NotebookLM Prompts”** appears in the bottom-right corner.
+- Click it to open a panel with all prompts from this repo (`templates/**`), fetched from GitHub.
+- Filter by name or category, then click a prompt:
+  - The userscript downloads the corresponding Markdown file
+  - Extracts the first fenced code block (the actual prompt template)
+  - Pastes it automatically into the NotebookLM input box
+- In NotebookLM, replace the `[LIKE THIS]` placeholders with your context, then run the prompt as usual.
+
 ## License
 
 MIT
