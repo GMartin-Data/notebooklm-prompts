@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.6.0] - 2026-03-24
+
+### Added
+- **`templates/studio/video/cinematic/` subcategory** — 3 empirically validated steering prompts for Cinematic Video Overviews:
+  - `cinematic-accessible-tone.md` — Popularize content with sustained metaphor (confirmed, 4 tests across 3 source configs)
+  - `cinematic-duration-control.md` — Shorten video by 40–51% (confirmed, 3 tests mono + multi)
+  - `cinematic-thematic-focus.md` — Steer narrative vocabulary and framing (confirmed vocabulary effect, 2 tests)
+- **`docs/cinematic-video-reverse-engineering.md`** — Full reverse-engineering study: 16 tests over 9 days (March 2026). First systematic analysis of Cinematic steering prompt effectiveness.
+  Covers: lever hierarchy, pipeline editorialization behavior, non-determinism quantification, mono-lever rule, multi-source fusion mechanics, control asymmetry, Pro tier limitations.
+
+### Key Findings
+- Tone/register steering is the most reliable lever (reproduced across 3 source configurations)
+- Duration control works when isolated (40–51% reduction) but degrades when combined with other levers
+- The pipeline invents figures, adds concepts, and fabricates causal links — output must always be verified against sources
+- Visual style is decided by Gemini but practically uncontrollable due to severe non-determinism (axis closed)
+- **Mono-lever rule**: never combine multiple steering instructions in a single prompt
+
 ## [2.5.2] - 2026-02-10
 
 ### Added

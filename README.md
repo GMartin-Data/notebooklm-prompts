@@ -1,6 +1,6 @@
 # NotebookLM Prompts Library
 
-**Version 2.5.0** | 57 prompts | 8 categories | Focus: Data Engineering
+**Version 2.6.0** | 60 prompts | 8 categories | Focus: Data Engineering
 
 ## Quick Start
 
@@ -10,6 +10,21 @@ cd notebooklm-prompts
 ```
 
 Browse prompts by category, copy the template from the code block, customize placeholders `[LIKE THIS]`, paste into NotebookLM.
+
+## 🎬 NEW: Cinematic Video Overviews — First Systematic Reverse-Engineering
+
+NotebookLM launched Cinematic Video Overviews on March 4, 2026. No steering guide existed. We ran **16 controlled tests** over 9 days to find out what actually works.
+
+**Key findings:**
+- ✅ **Tone steering works.** `Make this accessible and engaging for a non-technical audience. Use analogies.` transforms the register — the pipeline builds a sustained metaphor across the entire video. Reproduced 4x across 3 source configurations.
+- ✅ **Duration control works (alone).** `Keep this under [N] minutes.` reduces duration by 40–51%. Confirmed across mono and multi-source.
+- ❌ **Don't combine levers.** Mixing duration + theme in one prompt degrades both effects. Confirmed on 2 identical runs.
+- ⚠️ **The pipeline editorializes.** It invents figures, adds concepts not in your sources, and fabricates causal links between documents. Always verify output against sources.
+- ⚠️ **Non-determinism is severe.** Same source + same prompt = duration can vary up to 2.6x between runs.
+
+📄 **[Full reverse-engineering study →](docs/cinematic-video-reverse-engineering.md)** (16 tests, methodology, pipeline behavior analysis)
+
+🎯 **Validated prompts:** [`templates/studio/video/cinematic/`](templates/studio/video/cinematic/)
 
 ## Prompt Index
 
@@ -63,6 +78,9 @@ Browse prompts by category, copy the template from the code block, customize pla
 | [Video — Onboarding technique](templates/studio/video/video-onboarding-technique.md) | studio/video | beginner | Training and tutorials |
 | [Video — Documentation technique](templates/studio/video/video-documentation-technique.md) | studio/video | intermediate | API docs and technical specs |
 | [Video — Innovation/Produit](templates/studio/video/video-innovation-produit.md) | studio/video | intermediate | Product pitches and demos |
+| [Cinematic — Accessible Tone](templates/studio/video/cinematic/cinematic-accessible-tone.md) | studio/video/cinematic | — | Popularize content with sustained metaphor |
+| [Cinematic — Duration Control](templates/studio/video/cinematic/cinematic-duration-control.md) | studio/video/cinematic | — | Shorten cinematic video (40–51% reduction) |
+| [Cinematic — Thematic Focus](templates/studio/video/cinematic/cinematic-thematic-focus.md) | studio/video/cinematic | — | Steer narrative vocabulary and framing |
 | [Infographic — Architecture/Data](templates/studio/infographic/infographic-architecture-data.md) | studio/infographic | — | Isometric data platform diagrams |
 | [Infographic — Vulgarisation](templates/studio/infographic/infographic-vulgarisation.md) | studio/infographic | — | Complex concepts for non-experts |
 | [Infographic — Executive/KPIs](templates/studio/infographic/infographic-executive-kpis.md) | studio/infographic | — | KPIs and metrics, Swiss Minimalist |
@@ -135,6 +153,9 @@ Browse prompts by category, copy the template from the code block, customize pla
 | Video: training/tutorials | [Video — Onboarding technique](templates/studio/video/video-onboarding-technique.md) |
 | Video: API/technical docs | [Video — Documentation technique](templates/studio/video/video-documentation-technique.md) |
 | Video: product pitch/demo | [Video — Innovation/Produit](templates/studio/video/video-innovation-produit.md) |
+| Cinematic: popularize for non-specialists | [Cinematic — Accessible Tone](templates/studio/video/cinematic/cinematic-accessible-tone.md) |
+| Cinematic: shorter video | [Cinematic — Duration Control](templates/studio/video/cinematic/cinematic-duration-control.md) |
+| Cinematic: themed narrative | [Cinematic — Thematic Focus](templates/studio/video/cinematic/cinematic-thematic-focus.md) |
 | Architecture diagram | [Infographic — Architecture/Data](templates/studio/infographic/infographic-architecture-data.md) |
 | Explain concepts simply | [Infographic — Vulgarisation](templates/studio/infographic/infographic-vulgarisation.md) |
 | KPIs and metrics | [Infographic — Executive/KPIs](templates/studio/infographic/infographic-executive-kpis.md) |
@@ -166,7 +187,7 @@ Browse prompts by category, copy the template from the code block, customize pla
 ## Structure
 
 ```
-├── templates/                    # 57 prompts
+├── templates/                    # 60 prompts
 │   ├── learning/                 # 4 — active learning, concept mapping
 │   ├── troubleshooting/          # 3 — debugging, gap analysis
 │   ├── productivity/             # 3 — study guides, meetings
@@ -174,12 +195,13 @@ Browse prompts by category, copy the template from the code block, customize pla
 │   ├── data-engineering-specific/# 5 — architecture, code review
 │   ├── critical-analysis/        # 4 — devil's advocate, dialectics
 │   ├── source-management/        # 11 — synthesis, topic extraction
-│   └── studio/                   # 22 prompts
+│   └── studio/                   # 25 prompts
 │       ├── audio/                # 4 — briefs, debates, deep dives
-│       ├── video/                # 9 — explainers, templates
+│       ├── video/                # 12 — explainers, templates, cinematic
+│       │   └── cinematic/        # 3 — empirically validated steering prompts
 │       ├── infographic/          # 6 — architecture, KPIs, comparison
 │       └── slide-deck/           # 3 — presentations, RFCs
-├── docs/                         # Workflow documentation
+├── docs/                         # Workflow documentation + research
 ├── tracking.yaml                 # Usage metrics
 └── CHANGELOG.md
 ```
@@ -192,6 +214,7 @@ Detailed processes for prompt development and multi-source synthesis:
 - **[Synthesis to Video](docs/workflow-synthesis-notebooklm.md)** — Multi-source synthesis → Video Overview pipeline
 - **[Video Templates Guide](docs/notebooklm-video-templates-guide.md)** — 6 ready-to-use Style + Focus templates for Video Overview
 - **[Infographic Guide](docs/notebooklm-infographic-guide.md)** — 6 tested templates with styling techniques and limitations
+- **[Cinematic Video Reverse-Engineering](docs/cinematic-video-reverse-engineering.md)** — 16-test study of steering prompt effectiveness (pipeline behavior, non-determinism, lever hierarchy)
 
 ## File Format
 

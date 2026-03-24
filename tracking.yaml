@@ -488,3 +488,31 @@ technical-rfc-deck:
   success_rate: null
   avg_quality: null
   notes: ""
+
+# === STUDIO / VIDEO + INFOGRAPHIC ===
+cin-tone-accessible:
+  created: 2026-03-24
+  last_used: 2026-03-23
+  uses_count: 4
+  success_rate: 1.0
+  avg_quality: 4.5
+  notes: "Best overall lever. Sustained metaphor confirmed across 3 source configs. Side effect: can exclude sources in multi-source mode."
+  variants_tested: []
+
+cin-duration:
+  created: 2026-03-24
+  last_used: 2026-03-24
+  uses_count: 3
+  success_rate: 1.0
+  avg_quality: 4.0
+  notes: "40-51% reduction confirmed. Must be used alone — breaks when combined. Compression is uniform (no exclusion)."
+  variants_tested: []
+
+cin-theme-flow:
+  created: 2026-03-24
+  last_used: 2026-03-23
+  uses_count: 2
+  success_rate: 1.0
+  avg_quality: 3.5
+  notes: "Vocabulary effect only. No control on duration (3:35 vs 9:20 on identical runs). Generalizable pattern but only one theme tested."
+  variants_tested: []
